@@ -5,13 +5,13 @@ import (
 	"io"
 	"testing"
 
-	"github.com/segmentio/parquet-go/compress"
-	"github.com/segmentio/parquet-go/compress/brotli"
-	"github.com/segmentio/parquet-go/compress/gzip"
-	"github.com/segmentio/parquet-go/compress/lz4"
-	"github.com/segmentio/parquet-go/compress/snappy"
-	"github.com/segmentio/parquet-go/compress/uncompressed"
-	"github.com/segmentio/parquet-go/compress/zstd"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress/brotli"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress/gzip"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress/lz4"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress/snappy"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress/uncompressed"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress/zstd"
 )
 
 var tests = [...]struct {

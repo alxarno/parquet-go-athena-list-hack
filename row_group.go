@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/segmentio/parquet-go/internal/debug"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/debug"
 )
 
 // RowGroup is an interface representing a parquet row group. From the Parquet

@@ -2,7 +2,7 @@
 
 package wyhash
 
-import "github.com/segmentio/parquet-go/sparse"
+import "github.com/alxarno/parquet-go-athena-list-hack/sparse"
 
 //go:noescape
 func MultiHashUint32Array(hashes []uintptr, values sparse.Uint32Array, seed uintptr)

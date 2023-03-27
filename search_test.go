@@ -3,7 +3,7 @@ package parquet_test
 import (
 	"testing"
 
-	"github.com/segmentio/parquet-go"
+	"github.com/alxarno/parquet-go-athena-list-hack"
 )
 
 func TestSearchBinary(t *testing.T) {

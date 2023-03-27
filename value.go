@@ -11,10 +11,10 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/alxarno/parquet-go-athena-list-hack/deprecated"
+	"github.com/alxarno/parquet-go-athena-list-hack/format"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
 	"github.com/google/uuid"
-	"github.com/segmentio/parquet-go/deprecated"
-	"github.com/segmentio/parquet-go/format"
-	"github.com/segmentio/parquet-go/internal/unsafecast"
 )
 
 const (

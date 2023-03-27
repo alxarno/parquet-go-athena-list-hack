@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/segmentio/parquet-go"
+	"github.com/alxarno/parquet-go-athena-list-hack"
 )
 
 var dictionaryTypes = [...]parquet.Type{
@@ -267,7 +267,7 @@ func TestIssue312(t *testing.T) {
 			// column chunk type to be the actual value type, even when the
 			// schema uses a dictionary encoding.
 			//
-			// https://github.com/segmentio/parquet-go/issues/312
+			// https://github.com/alxarno/parquet-go-athena-list-hack/issues/312
 			_ = columnType.NewDictionary(0, 1, values)
 		})
 	}

@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/alxarno/parquet-go-athena-list-hack"
+	"github.com/alxarno/parquet-go-athena-list-hack/compress"
 	"github.com/google/uuid"
 	"github.com/hexops/gotextdiff"
 	"github.com/hexops/gotextdiff/myers"
 	"github.com/hexops/gotextdiff/span"
-	"github.com/segmentio/parquet-go"
-	"github.com/segmentio/parquet-go/compress"
 )
 
 const (

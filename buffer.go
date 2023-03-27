@@ -7,7 +7,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/segmentio/parquet-go/internal/debug"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/debug"
 )
 
 // Buffer represents an in-memory group of parquet rows.

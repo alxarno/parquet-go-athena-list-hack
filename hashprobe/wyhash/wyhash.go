@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"math/bits"
 
-	"github.com/segmentio/parquet-go/sparse"
+	"github.com/alxarno/parquet-go-athena-list-hack/sparse"
 )
 
 const (

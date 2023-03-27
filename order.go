@@ -3,7 +3,7 @@ package parquet
 import (
 	"bytes"
 
-	"github.com/segmentio/parquet-go/internal/unsafecast"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
 )
 
 func orderOfBool(data []bool) int {

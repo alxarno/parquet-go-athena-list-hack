@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/segmentio/parquet-go"
-	"github.com/segmentio/parquet-go/encoding"
+	"github.com/alxarno/parquet-go-athena-list-hack"
+	"github.com/alxarno/parquet-go-athena-list-hack/encoding"
 )
 
 var bufferTests = [...]struct {

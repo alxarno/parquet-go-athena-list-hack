@@ -4,7 +4,7 @@
 package uncompressed
 
 import (
-	"github.com/segmentio/parquet-go/format"
+	"github.com/alxarno/parquet-go-athena-list-hack/format"
 )
 
 type Codec struct {

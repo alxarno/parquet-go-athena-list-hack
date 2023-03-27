@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
+	"github.com/alxarno/parquet-go-athena-list-hack/compress"
+	"github.com/alxarno/parquet-go-athena-list-hack/format"
 	"github.com/klauspost/compress/gzip"
-	"github.com/segmentio/parquet-go/compress"
-	"github.com/segmentio/parquet-go/format"
 )
 
 const (

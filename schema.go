@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/alxarno/parquet-go-athena-list-hack/compress"
+	"github.com/alxarno/parquet-go-athena-list-hack/deprecated"
+	"github.com/alxarno/parquet-go-athena-list-hack/encoding"
 	"github.com/google/uuid"
-	"github.com/segmentio/parquet-go/compress"
-	"github.com/segmentio/parquet-go/deprecated"
-	"github.com/segmentio/parquet-go/encoding"
 )
 
 // Schema represents a parquet schema created from a Go value.

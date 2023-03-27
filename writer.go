@@ -10,11 +10,11 @@ import (
 	"math/bits"
 	"sort"
 
+	"github.com/alxarno/parquet-go-athena-list-hack/compress"
+	"github.com/alxarno/parquet-go-athena-list-hack/encoding"
+	"github.com/alxarno/parquet-go-athena-list-hack/encoding/plain"
+	"github.com/alxarno/parquet-go-athena-list-hack/format"
 	"github.com/segmentio/encoding/thrift"
-	"github.com/segmentio/parquet-go/compress"
-	"github.com/segmentio/parquet-go/encoding"
-	"github.com/segmentio/parquet-go/encoding/plain"
-	"github.com/segmentio/parquet-go/format"
 )
 
 // Deprecated: A Writer uses a parquet schema and sequence of Go values to

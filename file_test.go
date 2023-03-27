@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/segmentio/parquet-go"
+	"github.com/alxarno/parquet-go-athena-list-hack"
 )
 
 var testdataFiles []string

@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/segmentio/parquet-go"
+	"github.com/alxarno/parquet-go-athena-list-hack"
 )
 
 func BenchmarkGenericWriter(b *testing.B) {

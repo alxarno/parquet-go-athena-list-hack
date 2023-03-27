@@ -12,7 +12,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/segmentio/parquet-go"
+	"github.com/alxarno/parquet-go-athena-list-hack"
 )
 
 func TestGenericBuffer(t *testing.T) {

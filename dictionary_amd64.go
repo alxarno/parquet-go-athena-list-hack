@@ -5,8 +5,8 @@ package parquet
 import (
 	"unsafe"
 
-	"github.com/segmentio/parquet-go/internal/unsafecast"
-	"github.com/segmentio/parquet-go/sparse"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
+	"github.com/alxarno/parquet-go-athena-list-hack/sparse"
 )
 
 //go:noescape
@@ -79,7 +79,7 @@ func (d *byteArrayDictionary) lookupString(indexes []int32, rows sparse.Array) {
 	//
 	//	GOMAXPROCS=8 go test -run TestIssue368 -count 10
 	//
-	// https://github.com/segmentio/parquet-go/issues/368
+	// https://github.com/alxarno/parquet-go-athena-list-hack/issues/368
 	//
 	//dictionaryLookupByteArrayString(d.offsets, d.values, indexes, rows).check()
 	for i, j := range indexes {

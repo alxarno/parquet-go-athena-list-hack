@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/segmentio/parquet-go"
+	"github.com/alxarno/parquet-go-athena-list-hack"
 )
 
 func TestDedupeRowReader(t *testing.T) {

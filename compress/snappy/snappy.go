@@ -2,8 +2,8 @@
 package snappy
 
 import (
+	"github.com/alxarno/parquet-go-athena-list-hack/format"
 	"github.com/klauspost/compress/snappy"
-	"github.com/segmentio/parquet-go/format"
 )
 
 type Codec struct {

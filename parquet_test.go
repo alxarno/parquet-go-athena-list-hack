@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/alxarno/parquet-go-athena-list-hack"
+	"github.com/alxarno/parquet-go-athena-list-hack/deprecated"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/quick"
 	"github.com/google/uuid"
-	"github.com/segmentio/parquet-go"
-	"github.com/segmentio/parquet-go/deprecated"
-	"github.com/segmentio/parquet-go/internal/quick"
 )
 
 const (

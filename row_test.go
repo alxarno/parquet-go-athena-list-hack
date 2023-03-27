@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/alxarno/parquet-go-athena-list-hack"
 	"github.com/google/uuid"
-	"github.com/segmentio/parquet-go"
 )
 
 type bufferedRows struct {

@@ -3,7 +3,7 @@
 package hashprobe
 
 import (
-	"github.com/segmentio/parquet-go/sparse"
+	"github.com/alxarno/parquet-go-athena-list-hack/sparse"
 )
 
 func multiProbe32(table []table32Group, numKeys int, hashes []uintptr, keys sparse.Uint32Array, values []int32) int {

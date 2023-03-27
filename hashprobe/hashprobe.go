@@ -33,10 +33,10 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/segmentio/parquet-go/hashprobe/aeshash"
-	"github.com/segmentio/parquet-go/hashprobe/wyhash"
-	"github.com/segmentio/parquet-go/internal/unsafecast"
-	"github.com/segmentio/parquet-go/sparse"
+	"github.com/alxarno/parquet-go-athena-list-hack/hashprobe/aeshash"
+	"github.com/alxarno/parquet-go-athena-list-hack/hashprobe/wyhash"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
+	"github.com/alxarno/parquet-go-athena-list-hack/sparse"
 )
 
 const (

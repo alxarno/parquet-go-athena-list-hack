@@ -3,7 +3,7 @@
 package delta
 
 import (
-	"github.com/segmentio/parquet-go/internal/unsafecast"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
 	"golang.org/x/sys/cpu"
 )
 

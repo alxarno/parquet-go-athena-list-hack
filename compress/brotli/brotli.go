@@ -4,9 +4,9 @@ package brotli
 import (
 	"io"
 
+	"github.com/alxarno/parquet-go-athena-list-hack/compress"
+	"github.com/alxarno/parquet-go-athena-list-hack/format"
 	"github.com/andybalholm/brotli"
-	"github.com/segmentio/parquet-go/compress"
-	"github.com/segmentio/parquet-go/format"
 )
 
 const (

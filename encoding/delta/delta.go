@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/segmentio/parquet-go/internal/unsafecast"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
 )
 
 type int32Buffer struct {

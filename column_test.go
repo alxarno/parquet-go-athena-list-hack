@@ -5,10 +5,10 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/alxarno/parquet-go-athena-list-hack"
+	"github.com/alxarno/parquet-go-athena-list-hack/deprecated"
+	"github.com/alxarno/parquet-go-athena-list-hack/format"
 	"github.com/google/uuid"
-	"github.com/segmentio/parquet-go"
-	"github.com/segmentio/parquet-go/deprecated"
-	"github.com/segmentio/parquet-go/format"
 )
 
 func TestColumnPageIndex(t *testing.T) {

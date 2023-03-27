@@ -2,7 +2,7 @@
 
 package parquet
 
-import "github.com/segmentio/parquet-go/sparse"
+import "github.com/alxarno/parquet-go-athena-list-hack/sparse"
 
 //go:noescape
 func nullIndex8(bits *uint64, rows sparse.Array)

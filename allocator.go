@@ -1,6 +1,6 @@
 package parquet
 
-import "github.com/segmentio/parquet-go/internal/unsafecast"
+import "github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
 
 type allocator struct{ buffer []byte }
 

@@ -3,9 +3,9 @@ package parquet
 import (
 	"io"
 
-	"github.com/segmentio/parquet-go/deprecated"
-	"github.com/segmentio/parquet-go/encoding/plain"
-	"github.com/segmentio/parquet-go/internal/unsafecast"
+	"github.com/alxarno/parquet-go-athena-list-hack/deprecated"
+	"github.com/alxarno/parquet-go-athena-list-hack/encoding/plain"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/unsafecast"
 )
 
 type optionalPageValues struct {

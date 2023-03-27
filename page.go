@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/segmentio/parquet-go/deprecated"
-	"github.com/segmentio/parquet-go/encoding"
-	"github.com/segmentio/parquet-go/internal/bitpack"
-	"github.com/segmentio/parquet-go/internal/debug"
+	"github.com/alxarno/parquet-go-athena-list-hack/deprecated"
+	"github.com/alxarno/parquet-go-athena-list-hack/encoding"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/bitpack"
+	"github.com/alxarno/parquet-go-athena-list-hack/internal/debug"
 )
 
 // Page values represent sequences of parquet values. From the Parquet
