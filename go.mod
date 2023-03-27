@@ -1,4 +1,4 @@
-module github.com/segmentio/parquet-go
+module github.com/alxarno/parquet-go-athena-list-hack
 
 go 1.19
 
