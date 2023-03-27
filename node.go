@@ -392,13 +392,13 @@ func numLeafColumns(node Node, columnIndex int) int {
 
 func listElementOf(node Node) Node {
 	if !node.Leaf() {
-		if list := fieldByName(node, "list"); list != nil {
-			if elem := fieldByName(list, "element"); elem != nil {
+		if list := fieldByName(node, "bag"); list != nil {
+			if elem := fieldByName(list, "array_element"); elem != nil {
 				return elem
 			}
 		}
 	}
-	panic("node with logical type LIST is not composed of a repeated .list.element")
+	panic("node with logical type LIST is not composed of a repeated .bag.array_element")
 }
 
 func mapKeyValueOf(node Node) Node {

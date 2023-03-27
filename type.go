@@ -2015,7 +2015,7 @@ func (t *timestampType) ConvertValue(val Value, typ Type) (Value, error) {
 //
 // https://github.com/apache/parquet-format/blob/master/LogicalTypes.md#lists
 func List(of Node) Node {
-	return listNode{Group{"list": Repeated(Group{"element": of})}}
+	return listNode{Group{"bag": Repeated(Group{"array_element": of})}}
 }
 
 type listNode struct{ Group }
